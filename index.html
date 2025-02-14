@@ -43,6 +43,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
   <script>
     window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
     ga('create', 'UA-129786322-1', 'auto');
@@ -165,8 +168,9 @@
                  </li>
 
                  <li>
-                   <a itemprop="sameAs" href="https://twitter.com/arulyogan97" target="_blank" rel="noopener">
-                   <i class="fab fa-twitter big-icon" style="color: #007bff;"></i>
+                   <a itemprop="sameAs" href="https://www.hackerrank.com/profile/arulyogan97" target="_blank" rel="noopener">
+                   <i class="fab fa-brands fa-hackerrank big-icon" style="color: #007bff;"></i>
+                   <!-- <i class="fa-brands fa-hackerrank"></i> -->
                    </a>
                  </li>
 
@@ -382,7 +386,7 @@
                             <div class="text-right">Bengaluru</div>
                         </div>
                         <h4 class="card-title exp-title text-muted mt-0 mb-1">Senior Firmware Developer</h4>
-                        <h4 class="card-title exp-company text-muted my-0"><a href=" https://outdidtech.com/"
+                        <h4 class="card-title exp-company text-muted my-0"><a href="https://outdidunified.com"
                             target="_blank" rel="noopener">Outdid Unified LLP</a></h4>
                         <div class="card-text"><img src="img/work/outdid.jpg"  alt="outdidtech" style=" margin: auto;width: 50%;padding: 10px;" />
                             <ul>
@@ -826,75 +830,153 @@
   </section>
   <!--/ Section Portfolio End /-->
 
-  
-<!-- Achievements -->
-   <section id="certificate" class="home-section" style="font-size:medium; color: black;" >
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-4 section-heading" style="font-size:1.5rem;">
-            <h1>Achievements & Certificates</h1>
+    <section id="certificate" class="testimonials section" style="padding: 40px 0; ">
+      <!-- Section Title -->
+      <div class="container section-title" style="margin-bottom: 20px; text-align: center;">
+        <h2 style="font-size: 28px; font-weight: bold; color: #333;">Achievements & Certificates</h2>
+      </div>
+      <div class="container" style="overflow: hidden; max-width: 50%; position: relative;">
+        <div class="swiper" style="width: 100%; overflow: hidden;">
+          <div class="swiper-wrapper" style="display: flex; transition: transform 0.6s ease-in-out;">
+      
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a >Embedded Software Engineer</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">I successfully completed the NSDC test and was awarded my certificate.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/NSDC.pdf" target="_blank" rel="noopener"><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a>HackerRank Problem Solving Intermediate</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">I successfully completed the HackerRank Problem Solving (Intermediate) Skills Certification Test and earned my certificate.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/problem_solving_intermediate.pdf" target="_blank" rel="noopener" ><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a>HackerRank Problem Solving Basic</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">I successfully completed the HackerRank Problem Solving (Basic) Skills Certification Test and earned my certificate.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/problem_solving_basic.pdf" target="_blank" rel="noopener"><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial 4 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a>Mastering Microcontroller-1</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">Gaining a comprehensive understanding of driver development from scratch for GPIO, SPI, I2C, and USART, while acquiring expertise in configuring and enabling peripheral clocks, serial clocks, and baud rates for various serial communication protocols.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/Mastering_Microcontroller1.pdf" target="_blank" rel="noopener"><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial 5 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a>Mastering Microcontroller-2</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">Mastering CAN protocol implementation from scratch, including CAN signaling, transceivers, and bus access procedures, along with MCU low-power modes (SLEEP, STOP, STANDBY) and efficient handling of timer interrupts such as time-base, capture, and compare interrupts.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/Mastering_Microcontroller2.pdf" target="_blank" rel="noopener"><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial 6 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a>FreeRTOS</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">Mastering FreeRTOS task creation, deletion, scheduling, and event synchronization, along with queue management (creation, sending, receiving, and blocking), implementing mutual exclusion using mutexes and semaphores, and understanding context switching with in-depth code explanations.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/FreeRTOS.pdf" target="_blank" rel="noopener"><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial 7 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a>BootLoader</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">Understanding vector table mapping and relocation in ARM Cortex-MX processors, exploring memory aliasing and various boot modes, and designing and developing a custom bootloader.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/BootLoader.pdf" target="_blank" rel="noopener"><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Testimonial 8 -->
+            <div class="swiper-slide" style="flex: 0 0 auto; width: 100%; padding: 20px;">
+              <div style="border-left: 3px solid #007bff;">
+                <div class="testimonial-item" style="padding-left: 15px; margin-bottom: 20px; font-style: italic;">
+                  <h5 id="Embedded Linux" style="font-size:1.2rem;">
+                    <a>Embedded Linux</a>
+                  </h5>
+                  <p style="font-size: 18px;margin: 0;padding: 0;">Gaining an understanding of the Kernel, root filesystem, U-Boot, and the Linux command line.</p>
+                </div>
+                <div style="padding-top: 10px; padding-left: 15px;  margin-bottom: 20px;">
+                  <a itemprop="sameAs"  href="certificate/Embedded_Linux.pdf" target="_blank" rel="noopener"><button class="button-33">View Certificate</button>
+                  </a>
+                </div>
+              </div>
+            </div>            
+      
           </div>
-          <div class="col-12 col-lg-8">
-            <h2 id="NSDC Skill" style="font-size:1.5rem; text-decoration: underline  #007bff;">
-              <a href="certificate/NSDC.pdf" target="_blank" rel="noopener" style="color: #007bff;">Embedded Software Engineer</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>I successfully completed the NSDC test and was awarded my certificate.</li>
-			</ul>
-            <h2 id="HackerRank" style="font-size:1.5rem; text-decoration: underline  #007bff;">
-              <a href="certificate/problem_solving_intermediate.pdf" target="_blank" rel="noopener" style="color: #007bff;">HackerRank Problem Solving Intermediate</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>I successfully completed the HackerRank Problem Solving (Intermediate) Skills Certification Test and earned my certificate.</li>
-			</ul>
-            <h2 id="HackerRank" style="font-size:1.5rem; text-decoration: underline  #007bff;">
-              <a href="certificate/problem_solving_basic.pdf" target="_blank" rel="noopener" style="color: #007bff;">HackerRank Problem Solving Basic</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>I successfully completed the HackerRank Problem Solving (Basic) Skills Certification Test and earned my certificate.</li>
-			</ul>
-
-            <h2 id="Mastering Microcontroller1" style="font-size:1.5rem; text-decoration: underline  #007bff;">
-              <a href="certificate/Mastering_Microcontroller1.pdf" target="_blank" rel="noopener" style="color: #007bff;">Mastering Microcontroller-1</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>Developing Peripheral drivers for Microcontroller.</li>
-			  <li>Understanding right ways of enabling/configuring peripheral clocks/serial clocks/baud rates of various serial protocols.</li>
-			  <li>Understanding complete Driver Development steps right from scratch for GPIO, SPI, I2C and USART.</li>
-			</ul>
-
-            <h2 id="Mastering Microcontroller2" style="font-size:1.5rem; text-decoration: underline  #007bff;">
-              <a href="certificate/Mastering_Microcontroller2.pdf" target="_blank" style="color: #007bff;">Mastering Microcontroller-2</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>From scratch CAN Protocol implementation, CAN Signalling, CAN Transceivers , Bus Access procedures.</li>
-			  <li>Mastering Low power modes of the MCU : SLEEP,STOP and STANDBY.</li>
-			  <li>Handling of Timer interrupts : Time base interrupts, capture interrupts, compare interrupts.</li>
-			</ul>
-
-            <h2 id="FreeRTOS" style="font-size:1.5rem; text-decoration: underline  #007bff;"><a href="certificate/FreeRTOS.pdf"
-                target="_blank" style="color: #007bff;">FreeRTOS</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>FreeRTOS Task Creation , Deletion, Scheduling and Synchronization between multiple events and a task.</li>
-			  <li>FreeRTOS Queue management like creation, sending, receiving, blocking, etc.</li>
-			  <li>Implementing mutual exclusion between Tasks using Mutex services and semaphores.</li>
-			  <li>Understanding Context Switching with in detail code explanation.</li>
-			</ul>
-
-            <h2 id="BootLoader" style="font-size:1.5rem; text-decoration: underline  #007bff;">
-              <a href="certificate/BootLoader.pdf" target="_blank" style="color: #007bff;">BootLoader</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>Vector table mapping and vector table relocation use case of arm cortex mx processor.</li>
-			  <li>Memory aliasing and different boot modes.</li>
-			  <li>Custom boot loader design and development.</li>
-			</ul>
-         
-            <h2 id="Embedded Linux" style="font-size:1.5rem; text-decoration: underline  #007bff;">
-              <a href="certificate/Embedded_Linux.pdf"target="_blank" style="color: #007bff;">Embedded Linux</a></h2>
-			<ul style="list-style-type:circle;">
-			  <li>Understanding Kernel, Root filesystem, u-boot.</li>
-			  <li>Linux command line.</li>
-			</ul>
-          </div>
+      
+          <!-- Swiper Pagination -->
+          <div class="swiper-pagination" style="margin-top: 10px;"></div>
+      
         </div>
       </div>
-    </section> 
-
+    
+    </section>
+    
 <!-- contact -->
       <section id="contact" class="home-section" >
         <div class="container" style="text-align: center; width: 600; ">                      
@@ -1008,6 +1090,23 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <!-- dev js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper', {
+      loop: true,
+      speed: 900,
+      autoplay: {
+        delay: 5000,
+      },
+      slidesPerView: 'auto',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      }
+    });
+  </script>
 
 </body>
 <style>
