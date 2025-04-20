@@ -2321,3 +2321,14 @@ body.dark,
   transform: scale(1.05) rotate(-1deg);
 }
 
+}
+
+.custom-modal-width {
+  max-width: 80vw !important;
+  width: 80vw;
+}
+
+.modal-body {
+  max-height: 80vh;
+  overflow-y: auto;
+}
